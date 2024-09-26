@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <!-- Tailwind CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-green-50 to-green-100 min-h-screen flex items-center justify-center">
+    <div class="container max-w-md mx-auto p-8 bg-white shadow-lg rounded-lg">
+        <h1 class="text-center text-4xl font-bold text-green-600 mb-6">Prediction Result</h1>
+        <div class="bg-green-50 p-6 rounded-lg text-center border border-green-300 shadow-sm">
+            <p class="text-xl font-semibold text-green-800">{{ prediction }}</p>
+        </div>
+        <div class="text-center mt-8">
+            <a href="/" class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out">
+                Go Back
+            </a>
+        </div>
+    </div>
+</body>
+</html>
